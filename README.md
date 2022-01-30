@@ -36,11 +36,13 @@ Checkout the Jupyter Notebook
 pipenv run juypter notebook
 ```
 
-... and open [wcgan-gp.ipynb]()
+... and open [wcgan-gp.ipynb](https://github.com/marzekan/WCGAN-GP/blob/main/wcgan-gp.ipynb)
 
 or 
 
-use the packaged module: [wcgan.py]()
+use the packaged module: [wcgan.py](https://github.com/marzekan/WCGAN-GP/blob/main/wcgangp/wcgangp.py)
+
+![example](https://github.com/marzekan/WCGAN-GP/blob/main/assets/example.png)
 
 ---
 
@@ -48,13 +50,25 @@ use the packaged module: [wcgan.py]()
 
 Synthetic data evaluation was done using the [TableEvaluator](https://pypi.org/project/table-evaluator/) package.
 
+![log-mean-std](https://github.com/marzekan/WCGAN-GP/blob/main/assets/log-mean-std.png)
+
+![cum-sum](https://github.com/marzekan/WCGAN-GP/blob/main/assets/cum-sum.png)
+
+![dist-per-feat](https://github.com/marzekan/WCGAN-GP/blob/main/assets/dist-per-feat.png)
+
+![heatmap](https://github.com/marzekan/WCGAN-GP/blob/main/assets/heatmap.png)
+
+![pca](https://github.com/marzekan/WCGAN-GP/blob/main/assets/pca.png)
+
+![losses](https://github.com/marzekan/WCGAN-GP/blob/main/assets/train-losses.png)
+
 ---
 
-<strong style="color: red">Important!</strong>
+**Important!**
 
 For demo purposes and to reduce resource usage the original **CIC-IDS-2017 is sampled to 25% of the original dataset size**.
 
-This is sure to implact the results so if you want to get the best possible results you should train the WCGAN-GP on entire CIC-IDS-2017 after running it through [cleaning-cic-ids-2017.ipynb]() and [data-preproc.ipynb]() notebooks.
+This is sure to implact the results so if you want to get the best possible results you should train the WCGAN-GP on entire CIC-IDS-2017 after running it through [cleaning-cic-ids-2017.ipynb](https://github.com/marzekan/WCGAN-GP/blob/main/cleaning-sampling/cleaning-cic-ids-2017.ipynb) and [data-preproc.ipynb](https://github.com/marzekan/WCGAN-GP/blob/main/data-preproc.ipynb) notebooks.
 
 ---
 
